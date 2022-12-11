@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4365d2256aed474f8d660b59118c2382" Name="Diagram1">
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.Actor" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.Comments" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.Country" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.Genre" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.Groups" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.KinoAndActor" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.KinoAndGenre" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.KinoAndGroups" Width="1.5" PointX="8.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.KinoAndSerial" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.Sentence" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AsiaDrama_TrifonovaModel.Users" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndActor_Actor" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_Comments_KinoAndSerial" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_Comments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndSerial_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndGenre_Genre" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndGroups_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndActor_KinoAndSerial" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndGenre_KinoAndSerial" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndGroups_KinoAndSerial" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_KinoAndGroups_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="AsiaDrama_TrifonovaModel.FK_Sentence_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
